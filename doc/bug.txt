@@ -1,1 +1,5 @@
 1、发现部分小球下落穿透的情况  20210428 by cjoy
+2、Material的TilingOffset>1时无法保存,Windows的3D 1.1.0,3D1.2.0,3.0.1都有这种情况 20210429 by cjoy
+3、升级版本的Material参数不能修改，如3d 1.1.0升级到3.0.1后不能改 20210429 by cjoy
+4、3.0.1中builtin physics刚体无效，好像无实现 20210427 by cjoy
+5、3.0.1中spine和dragonbones不能用 20210427 by cjoy
