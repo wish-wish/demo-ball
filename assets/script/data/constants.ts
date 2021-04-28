@@ -42,7 +42,7 @@ enum BOARD_TYPE {
     /**
      * @zh 上行碰到不能穿过的,20210428
      */
-     CANTJUMPTHROUGH=8,
+    CANTJUMPTHROUGH=8,
 }
 
 enum GAME_STATE {
