@@ -148,7 +148,7 @@
     "_id": ""
   },
   {
-    "__type__": "cc.ModelComponent",
+    "__type__": "cc.MeshRenderer",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -167,21 +167,9 @@
     },
     "_shadowCastingMode": 0,
     "_receiveShadows": false,
-    "_id": ""
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 1
-    },
-    "asset": {
-      "__id__": 0
-    },
-    "fileId": "Node.828",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
+    "_id": "",
+    "__prefab": {
+      "__id__": 9
     }
   },
   {
@@ -192,12 +180,17 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "Node.827",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "Node.828"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "Node.827"
   },
   {
     "__type__": "900c8pQ81tCcrbRdvi9SxTB",
@@ -219,7 +212,10 @@
     "trail02Prefab": {
       "__uuid__": "519290e7-9d06-4212-9d54-e28a7c2a6b05"
     },
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 10
+    }
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -229,11 +225,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "Node.826",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "Node.826"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "14gmwLAP5BuK0owUt6XoDU"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "490HLy6KNK+5GQSZiy9Ty4"
   }
 ]

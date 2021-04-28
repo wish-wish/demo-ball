@@ -22,6 +22,11 @@ export class BoardManager extends Component {
     diamondCenterX = 0; // 钻石摆放中心位置
     _boardList: Board[] = []; // 跳板列表
     _boardInsIdx = 0; // 当前实例编号
+    
+    onLoad()
+    {
+        console.log("BoardManager");
+    }
 
     start () {
         this.initBoard();

@@ -147,7 +147,7 @@
     "_id": "a9zG4CFLFG/Ycs30bFmGIt"
   },
   {
-    "__type__": "cc.ModelComponent",
+    "__type__": "cc.MeshRenderer",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -165,21 +165,9 @@
     },
     "_shadowCastingMode": 0,
     "_receiveShadows": false,
-    "_id": "afLzKqVjlCiLemSQShwsj7"
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 1
-    },
-    "asset": {
-      "__uuid__": "f1aeb172-157e-481b-9fb1-1e2fd5fbcd2f"
-    },
-    "fileId": "Node.822",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
+    "_id": "afLzKqVjlCiLemSQShwsj7",
+    "__prefab": {
+      "__id__": 8
     }
   },
   {
@@ -188,14 +176,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "f1aeb172-157e-481b-9fb1-1e2fd5fbcd2f"
+      "__id__": 0
     },
-    "fileId": "Node.821",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "Node.822"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -203,10 +186,22 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "f1aeb172-157e-481b-9fb1-1e2fd5fbcd2f"
+      "__id__": 0
     },
-    "fileId": "Node.820",
-    "sync": false,
-    "_synced": {}
+    "fileId": "Node.821"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "Node.820"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "d1Vs7fmdZPtJ67c/x981HA"
   }
 ]

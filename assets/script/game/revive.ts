@@ -10,27 +10,32 @@ export class Revive extends Component {
 
     /* use `property` decorator if your want the member to be serializable */
 
-    closeCb: Function = null;
+    closeCb: Function = null!;
 
     @property(WidgetComponent)
-    wgMenu: WidgetComponent = null;
+    wgMenu: WidgetComponent = null!;
 
     @property(Label)
-    historyLabel: Label = null;
+    historyLabel: Label = null!;
 
     @property({ type: Label })
-    scoreLabel: Label = null;
+    scoreLabel: Label = null!;
 
     @property({ type: Label })
-    progressLabel: Label = null;
+    progressLabel: Label = null!;
 
     @property(SpriteComponent)
-    spCountDown: SpriteComponent = null;  //倒计时
+    spCountDown: SpriteComponent = null!;  //倒计时
 
-    pageResult: PageResult = null;
-    countDownTime: number;
-    currentTime: number;
-    isCountDowning: boolean;
+    pageResult: PageResult = null!;
+    countDownTime: number=0;
+    currentTime: number=0;
+    isCountDowning: boolean=false;
+
+    onLoad()
+    {
+        console.log("Revive");
+    }
 
     onEnable() {
         this.show();

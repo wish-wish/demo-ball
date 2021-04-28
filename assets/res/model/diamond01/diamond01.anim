@@ -1,15 +1,31 @@
-{
-  "__type__": "cc.AnimationClip",
-  "_name": "diamond01",
-  "_objFlags": 0,
-  "_native": "",
-  "sample": 60,
-  "speed": 1,
-  "wrapMode": 2,
-  "curveDatas": {
-    "/": {
-      "props": {
-        "rotation": {
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "diamond01",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 60,
+    "speed": 1,
+    "wrapMode": 2,
+    "events": [],
+    "_duration": 3.033333333333333,
+    "_keys": [
+      [
+        0,
+        1.4,
+        3.033333333333333
+      ]
+    ],
+    "_stepness": 0,
+    "_curves": [
+      {
+        "modifiers": [
+          {
+            "__id__": 1
+          },
+          "rotation"
+        ],
+        "data": {
           "keys": 0,
           "values": [
             {
@@ -41,16 +57,12 @@
           ]
         }
       }
-    }
+    ],
+    "_commonTargets": [],
+    "_hash": 0
   },
-  "events": [],
-  "_duration": 3.033333333333333,
-  "_keys": [
-    [
-      0,
-      1.4,
-      3.033333333333333
-    ]
-  ],
-  "_stepness": 0
-}
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "/"
+  }
+]

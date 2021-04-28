@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.1",
+  "ver": "1.0.5",
   "importer": "auto-atlas",
   "imported": true,
   "uuid": "00f88bb4-a6aa-4194-875f-cee9a142af89",
@@ -20,6 +20,15 @@
     "contourBleed": true,
     "paddingBleed": true,
     "filterUnused": false,
-    "platformSettings": {}
+    "platformSettings": {},
+    "compressSettings": {},
+    "textureSetting": {
+      "wrapModeS": "repeat",
+      "wrapModeT": "repeat",
+      "minfilter": "linear",
+      "magfilter": "linear",
+      "mipfilter": "none",
+      "anisotropy": 1
+    }
   }
 }

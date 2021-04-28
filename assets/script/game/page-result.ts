@@ -19,6 +19,11 @@ export class PageResult extends Component {
     @property(Node)
     result: Node = null!;
 
+    onLoad()
+    {
+        console.log("PageResult");
+    }
+
     init() {
         this.targetProgress = 0;
         this.scoreLabel.playUpdateValue(this.targetProgress, this.targetProgress, 0);

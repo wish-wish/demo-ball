@@ -148,7 +148,7 @@
     "_id": ""
   },
   {
-    "__type__": "cc.ModelComponent",
+    "__type__": "cc.MeshRenderer",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -167,21 +167,9 @@
     },
     "_shadowCastingMode": 0,
     "_receiveShadows": false,
-    "_id": ""
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 1
-    },
-    "asset": {
-      "__id__": 0
-    },
-    "fileId": "Node.810",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
+    "_id": "",
+    "__prefab": {
+      "__id__": 9
     }
   },
   {
@@ -192,12 +180,17 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "Node.809",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "Node.810"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "Node.809"
   },
   {
     "__type__": "bb50aLcTl1FbpB7Hy0H/DT9",
@@ -222,7 +215,10 @@
     "springHelixPrefab": {
       "__uuid__": "89e7ed42-2941-4d5e-9f16-bb0e23353f98"
     },
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 10
+    }
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -232,11 +228,14 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "Node.808",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "Node.808"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "36ZSptYUtJFqE+f70kyGU7"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "abLwBRZEBEgb0GFcbazrCC"
   }
 ]

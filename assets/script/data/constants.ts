@@ -26,7 +26,23 @@ enum BOARD_TYPE {
     /**
      * @zh 冲刺跳板
      */
-    SPRINT = 4
+    SPRINT = 4,
+    /**
+     * @zh 弹簧鞋，踏三次,20210428
+     */
+    SHOES=5,
+    /**
+     * @zh 可移动的，按住拖动,20210428
+     */
+    MOVEABLE=6,
+    /**
+     * @zh 可破坏的,下落后坏掉,20210428
+     */
+    BREAKABLE=7,
+    /**
+     * @zh 上行碰到不能穿过的,20210428
+     */
+     CANTJUMPTHROUGH=8,
 }
 
 enum GAME_STATE {

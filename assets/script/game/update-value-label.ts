@@ -10,6 +10,11 @@ export class UpdateValueLabel extends Label {
     currTime = 0;
     changingTime = 0;
 
+    onLoad()
+    {
+        console.log("UpdateValueLabel");
+    }
+
     start() {
         // Your initialization goes here.
     }
@@ -28,7 +33,7 @@ export class UpdateValueLabel extends Label {
         this.isPlaying = true;
     }
 
-    update(dt) {
+    update(dt:any) {
         if (!this.isPlaying) {
             return;
         }

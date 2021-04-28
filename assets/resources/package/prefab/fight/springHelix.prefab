@@ -12,7 +12,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "spring01",
+    "_name": "springHelix",
     "_objFlags": 0,
     "_parent": null,
     "_children": [
@@ -144,7 +144,7 @@
     "_id": ""
   },
   {
-    "__type__": "cc.ModelComponent",
+    "__type__": "cc.MeshRenderer",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -162,21 +162,9 @@
     },
     "_shadowCastingMode": 0,
     "_receiveShadows": false,
-    "_id": ""
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 1
-    },
-    "asset": {
-      "__uuid__": "89e7ed42-2941-4d5e-9f16-bb0e23353f98"
-    },
-    "fileId": "Node.819",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
+    "_id": "",
+    "__prefab": {
+      "__id__": 8
     }
   },
   {
@@ -185,14 +173,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "89e7ed42-2941-4d5e-9f16-bb0e23353f98"
+      "__id__": 0
     },
-    "fileId": "Node.818",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "Node.819"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -200,10 +183,22 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "89e7ed42-2941-4d5e-9f16-bb0e23353f98"
+      "__id__": 0
     },
-    "fileId": "Node.817",
-    "sync": false,
-    "_synced": {}
+    "fileId": "Node.818"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "Node.817"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "71azjhHb1NI4epBdKeJPTM"
   }
 ]

@@ -12,7 +12,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "trail",
+    "_name": "trail01",
     "_objFlags": 0,
     "_parent": null,
     "_children": [],
@@ -54,8 +54,8 @@
     "_id": ""
   },
   {
-    "__type__": "cc.ParticleSystemComponent",
-    "_name": "New Particle<ParticleSystemComponent>",
+    "__type__": "cc.ParticleSystem",
+    "_name": "New Particle<ParticleSystem>",
     "_objFlags": 0,
     "node": {
       "__id__": 1
@@ -105,40 +105,43 @@
         "__id__": 15
       }
     ],
-    "colorOverLifetimeModule": {
-      "__id__": 17
-    },
-    "shapeModule": {
-      "__id__": 22
-    },
-    "sizeOvertimeModule": {
-      "__id__": 24
-    },
-    "velocityOvertimeModule": {
-      "__id__": 29
-    },
-    "forceOvertimeModule": {
-      "__id__": 34
-    },
-    "limitVelocityOvertimeModule": {
-      "__id__": 38
-    },
-    "rotationOvertimeModule": {
-      "__id__": 43
-    },
-    "textureAnimationModule": {
-      "__id__": 47
-    },
-    "trailModule": {
-      "__id__": 50
-    },
     "renderer": {
       "__id__": 61
     },
     "_prewarm": false,
     "_capacity": 10,
     "_simulationSpace": 1,
-    "_id": ""
+    "_id": "",
+    "_colorOverLifetimeModule": {
+      "__id__": 17
+    },
+    "_sizeOvertimeModule": {
+      "__id__": 24
+    },
+    "_rotationOvertimeModule": {
+      "__id__": 43
+    },
+    "_forceOvertimeModule": {
+      "__id__": 34
+    },
+    "_limitVelocityOvertimeModule": {
+      "__id__": 38
+    },
+    "_velocityOvertimeModule": {
+      "__id__": 29
+    },
+    "_shapeModule": {
+      "__id__": 22
+    },
+    "_trailModule": {
+      "__id__": 50
+    },
+    "_textureAnimationModule": {
+      "__id__": 47
+    },
+    "__prefab": {
+      "__id__": 63
+    }
   },
   {
     "__type__": "cc.GradientRange",
@@ -841,7 +844,8 @@
     "enable": false,
     "color": {
       "__id__": 18
-    }
+    },
+    "_enable": false
   },
   {
     "__type__": "cc.GradientRange",
@@ -937,7 +941,8 @@
       "z": 1
     },
     "_arc": 6.283185307179586,
-    "_angle": 0.4363323129985824
+    "_angle": 0.4363323129985824,
+    "_enable": false
   },
   {
     "__type__": "cc.CurveRange",
@@ -1025,7 +1030,8 @@
     },
     "z": {
       "__id__": 28
-    }
+    },
+    "_enable": false
   },
   {
     "__type__": "cc.CurveRange",
@@ -1326,7 +1332,8 @@
     "speedModifier": {
       "__id__": 33
     },
-    "space": 0
+    "space": 0,
+    "_enable": false
   },
   {
     "__type__": "cc.CurveRange",
@@ -1624,7 +1631,8 @@
     "z": {
       "__id__": 37
     },
-    "space": 1
+    "space": 1,
+    "_enable": false
   },
   {
     "__type__": "cc.CurveRange",
@@ -1856,7 +1864,8 @@
     },
     "dampen": 3,
     "separateAxes": false,
-    "space": 1
+    "space": 1,
+    "_enable": false
   },
   {
     "__type__": "cc.CurveRange",
@@ -2154,7 +2163,8 @@
     },
     "z": {
       "__id__": 46
-    }
+    },
+    "_enable": false
   },
   {
     "__type__": "cc.CurveRange",
@@ -2819,10 +2829,12 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "f64b6551-9ede-40a5-b41d-f3d3884af22f"
+      "__id__": 0
     },
-    "fileId": "b4EJW/Nq5J8p6GnD+HPJ3y",
-    "sync": false,
-    "_synced": true
+    "fileId": "b4EJW/Nq5J8p6GnD+HPJ3y"
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "221JUUkMVCZIBoYHsthId6"
   }
 ]
