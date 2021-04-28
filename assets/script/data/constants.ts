@@ -115,8 +115,8 @@ export class Constants {
 
     // board
     static BOARD_INIT_POS = new Vec3(0, 10, 0); // 跳板初始位置
-    static BOARD_NUM = 6; // 跳板初始个数
-    static BOARD_NEW_INDEX = 2; // 每次新增两个跳板
+    static BOARD_NUM = 10; // 跳板初始个数
+    static BOARD_NEW_INDEX = 4; // 每次新增两个跳板
     static BOARD_HEIGTH = 0.25; // 跳板厚度
     static BOARD_RADIUS = 1.5; // 跳板半径
     static BOARD_HEIGTH_SCALE_DROP = 0.5; // 掉落板厚度缩放比例
@@ -135,7 +135,7 @@ export class Constants {
     static BOARD_WAVE_INNER_START_FRAMES = 8;
     static BOARD_WAVE_INNER_STEP = 0.12 * 2;
     static BOARD_WAVE_STEP = 0.15 * 15;
-    static BOARD_MOVING_STEP = 0.03; // 移动板移动速度
+    static BOARD_MOVING_STEP = 0.13; // 移动板移动速度
 
     static SPRING_HEIGHT = 0.2;
     static SPRING_HELIX_STEP = 0.5;
@@ -151,8 +151,8 @@ export class Constants {
     static CAMERA_MOVE_Y_FRAMES = 15; // 相机纵向偏移比例
     static CAMERA_MOVE_Y_FRAMES_SPRING = 23; // 弹簧跳板纵向偏移比例
     static CAMERA_MOVE_MINI_ERR = 0.02; // 相机位置最小误差
-    static CAMERA_OFFSET_Y = 10;
-    static CAMERA_OFFSET_Y_SPRINT = 15;
+    static CAMERA_OFFSET_Y = 10;//偏移
+    static CAMERA_OFFSET_Y_SPRINT = 15;//冲刺偏移
     static BOARD_BUMP_FRAMES = 10;
     static BOARD_BUMP_STEP = [-0.15, -0.1, -0.07, -0.02, -0.003, 0.003, 0.02, 0.07, 0.1, 0.15];
 
